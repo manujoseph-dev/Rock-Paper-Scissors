@@ -29,8 +29,8 @@ const images = [
 const audio_equal = new Audio("./audio/equal.wav");
 const audio_fail = new Audio("./audio/game-fail.mp3");
 const audio_win = new Audio("./audio/game-win.mp3");
-let scors1 = 1;
-let scors2 = 1;
+let scors1 = 0;
+let scors2 = 0;
 
 btns.forEach(function (btn) {
     btn.addEventListener("click", (e) => {
